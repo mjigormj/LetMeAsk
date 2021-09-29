@@ -1,8 +1,11 @@
 import React from 'react';
+import { Home } from './pages/Home';
+
+import './services/firebase';
 
 function App() {
   return (
-    <h1>Da pra mim</h1>
+    <Home/>
   );
 }
 
